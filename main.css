@@ -1,5 +1,5 @@
 div {
-  border: 20px solid #000; /* this is short hand for setting 
+  border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
   display: inline-block; /* a way of positioning elements */
   min-width: 20em; /* the two min styles make the shape */
@@ -8,4 +8,26 @@ div {
   border-left-color: transparent; /* these remove the color from the left side */
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
+}
+
+#Red { /* this selects any elements with the red id */
+  border-top-color: #F00;
+}
+#Orange {
+  border-top-color: #FFA500;
+}
+#Yellow {
+  border-top-color: #FF0;
+}
+#Green {
+  border-top-color: #00BC3F;
+}
+#Blue {
+  border-top-color: #06F;
+}
+#Indigo {
+  border-top-color: #8A2BE2;
+}
+#violet {
+  border-top-color: #D300C9;
 }
